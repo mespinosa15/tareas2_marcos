@@ -1,0 +1,17 @@
+name = "NielsenML"
+uuid = "df6d8f46-0790-11e9-157e-e1b253f0b271"
+version = "0.1.0-dev"
+
+[deps]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+NLopt = "76087f3c-5699-56af-9a33-bf431cd00edd"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+[extras]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "ForwardDiff"]
